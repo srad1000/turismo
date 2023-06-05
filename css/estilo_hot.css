@@ -1,0 +1,97 @@
+body{
+
+    margin:0;
+    padding: 0;
+}
+.fundo{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.fundo img{
+width: 100%;
+height: 100%;
+
+}
+.header{
+    background-color: rgb(74, 112, 236);
+    height: 110px;
+    width: 100%;
+
+    margin-bottom:20px ;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3vw;
+    text-size-adjust: auto;
+}
+.logo{
+  position: absolute;
+  
+  left: 10%;
+}
+.logo a{
+    
+}
+.nome{
+    position: absolute;
+
+    left: 20%;
+    color: white;
+    
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+
+    width:60%;
+    height: 110px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 2vw;  
+    align-items: center;
+    display: flex;
+    
+}
+.nome span{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   
+    font-size: 3vw;
+    text-size-adjust: auto;
+    padding-bottom: 25px;
+}
+
+.header2{
+    justify-content: center;
+    align-items: center;
+    background-color:  rgb(74, 112, 236);
+    width: 100%;
+    height: 55px;
+}
+
+
+div.header2 table tr td.aulas{
+    position: absolute;
+    padding-top: 10px;
+    color: white;
+    font-size: 2vw;
+    text-align: center;
+    width: 100%;
+}
+
+.main{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+
+}
+img{
+    height: 50%;
+    width: 50%;
+}
+
+iframe{
+
+}

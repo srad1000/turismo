@@ -1,0 +1,94 @@
+body{
+
+    margin: 0;
+    padding: 0
+}
+.fundo{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.fundo img{
+
+    width: 100%;
+    height: 100%;
+}
+
+.header{
+    position: relative;
+    height:120px;
+    background-color: rgb(74, 112, 236);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3vw;
+    color:black;
+    font-family: impact;
+}
+
+.form1{
+    position: relative;
+    width: 50%;
+    left: 25%;
+    top:20px;
+    border-radius: 8px;
+    background-color: aliceblue;  
+    
+}
+
+.form1 legend{
+    font-size: 3vw;
+    font-size-adjust: auto;
+    color: rgb(126, 43, 126);
+    font-family: monospace;
+}
+
+.form1 fieldset{
+    border: 1px solid rgb(6, 46, 33); 
+}
+
+.form1 div{
+    display: block;
+    padding-top: 15px;
+}
+
+input[type=text], input[type=password], select{
+    width: 100%;
+    padding: 12px;
+    box-sizing: border-box;
+    border: 1px solid rgb(6, 46, 33); 
+    border-radius: 8px;
+}
+
+input[type=date]{
+    padding: 12px;
+    border: 1px solid rgb(6, 46, 33); 
+    border-radius: 8px;
+}
+
+textarea{
+    width: 100%;
+    height:80px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    resize: none;
+}
+
+input[type=submit], [type=reset]{
+    background-color: rgb(126, 43, 126); 
+    color: aliceblue;
+    padding: 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 15%;
+}
+
+input[type=submit]:hover{
+    background-color: green;
+}
+
+input[type=reset]:hover{
+    background-color: red;
+}
+
+

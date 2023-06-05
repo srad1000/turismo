@@ -1,0 +1,141 @@
+body{
+
+    margin:0;
+    padding: 0;
+}
+.fundo{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.fundo img{
+width: 100%;
+height: 100%;
+
+}
+
+.rest{
+position: absolute;
+height: 10px;
+}
+.header{
+    background-color: rgb(74, 112, 236);
+    height: 110px;
+    width: 100%;
+    margin-bottom:20px ;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3vw;
+    text-size-adjust: auto;
+}
+.logo{
+  position: absolute;
+  
+  left: 10%;
+}
+.logo a{
+    
+}
+.nome{
+    position: absolute;
+    left: 20%;
+    color: white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:60%;
+    height: 110px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 2vw;  
+    align-items: center;
+    display: flex;
+    
+}
+.nome span{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   
+    font-size: 3vw;
+    text-size-adjust: auto;
+    padding-bottom: 25px;
+}
+
+
+.header2{
+    justify-content: center;
+    align-items: center;
+    background-color:  rgb(74, 112, 236);
+    width: 100%;
+    height: 55px;
+}
+
+
+div.header2 table tr td.aulas{
+    position: absolute;
+    padding-top: 10px;
+    color: white;
+    font-size: 2vw;
+    text-align: center;
+    width: 100%;
+}
+
+
+.main{
+    position: relative;
+
+    width:80%;
+    top:0;
+    left:10%;
+    height: 100%
+}
+
+.tabela {
+    position: absolute;
+    width: 80%; /* Define a largura da tabela */
+    left: 10%; /* Define a posição da tabela em relação ao lado esquerdo da página */
+    top: 10px; /* Define a posição da tabela em relação ao topo da página */
+    display: flex;
+    justify-content: center; /* Centraliza a tabela horizontalmente */
+    border-collapse: collapse; /* Remove as bordas entre as células da tabela */
+}
+
+.tabela table {
+    width: 90%; /* Define a largura da tabela dentro da div .tabela */
+    left: 10%; /* Define a posição da tabela em relação ao lado esquerdo da div .tabela */
+    background-color: rgb(214, 214, 214); /* Define a cor de fundo da tabela */
+    text-align: center; /* Centraliza o texto dentro das células da tabela */
+    color: rgb(8, 8, 8); /* Define a cor do texto dentro das células da tabela */
+}
+
+.tabela th,
+.tabela td {
+    border: 3px solid rgb(39, 84, 233); /* Define a largura e a cor das bordas das células da tabela */
+    font-size: 2vw; /* Define o tamanho da fonte do texto dentro das células da tabela */
+    padding: 10px; /* Define o espaço entre o texto e as bordas das células da tabela */
+    text-size-adjust: auto;
+}
+
+.tabela th {
+    color: rgb(0, 23, 97) /* Define a cor do texto dentro das células de cabeçalho da tabela */
+}
+
+.tabela tr:nth-child(even) {
+    background-color: #ababab; /* Define a cor de fundo das linhas pares da tabela */
+}
+
+.tabela tr:hover {
+    background-color: white; /* Define a cor de fundo das células da tabela ao passar o mouse por cima */
+}
+
+.embaixo{
+    position:relative;
+    background-color: rgb(33, 33, 33);
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+    height:100px;
+    color: azure;
+    margin-top:0%;
+    left: 0;
+
+}

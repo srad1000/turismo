@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/stillo_login.css">
+    <title>Estilizando Formulários</title>
+</head>
+<body>
+    <div class="header">
+        <span>Login</span>
+    </div>
+
+    <div class="form1">
+
+        <form action="index_nav.html" method="POST">
+
+            <fieldset>
+
+                <legend>Cadastro</legend>
+
+                <div>
+                <label for="nome">Nome completo:</label>
+                <input type="text" id="idnome" placeholder="Digite seu nome..">
+                </div>
+
+                <div>
+                <label for="email">Email:</label>
+                <input type="text" id="idemail" placeholder="email@email.com">
+                </div>
+
+                <div>
+                <label for="senha">Senha:</label>
+                <input type="password" id="idsenha" placeholder="Crie uma senha de 15 dígitos" maxlength="15">
+                </div>
+
+                <div>
+                <label for="pergunta"> Como você conheceu nosso site?</label>
+                <select name="pergunta" id="pergunta">
+                <option>Selecione</option>
+                <option value="net"> Pesquisando na Internet </option>
+                <option value="ad"> Anúncio </option>
+                <option value="amigo"> Indicação de um amigo</option>
+                <option value="outro"> Outro </option>
+                </select>
+            </div>
+
+
+            <div>
+                <label for="data">Data de nascimento:</label><br>
+                <input type="date" id="data">
+            </div>
+
+          
+
+            <div>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Resetar">
+            </div>
+
+            </fieldset>
+        </form>
+
+    </div>
+</body>
+</html>
